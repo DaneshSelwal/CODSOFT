@@ -20,7 +20,7 @@ public class NumberGame {
             System.out.println(String.format("Welcome to the Round %d." ,round));
             int guess=0;
             int score = 50;
-            int generatedNumber= random.nextInt(100)+1;           //To generate a random number among 1 to 100.
+            int generatedNumber= random.nextInt(100)+17;           //To generate a random number among 1 to 100.
 
 
             // A for loop to access the new guess input and match the guess with original number.
